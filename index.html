@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معالج النصوص العربية</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>معالج الأسانيد</h1>
+        <div class="text-processor">
+            <div class="input-section">
+                <h2>النص المدخل</h2>
+                <textarea id="inputText" placeholder="قم بلصق النص هنا..."></textarea>
+                <button id="processBtn" class="btn">معالجة النص</button>
+                <button id="pasteBtn" class="btn">لصق من الحافظة</button>
+            </div>
+            <div class="output-section">
+                <h2>النص المعالج</h2>
+                <textarea id="outputText" readonly></textarea>
+                <button id="copyBtn" class="btn">نسخ النص</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
